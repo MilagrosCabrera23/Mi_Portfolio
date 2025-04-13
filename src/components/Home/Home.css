@@ -1,0 +1,73 @@
+.home-container {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin:15rem 17rem;
+  color: #000;
+}
+.title-home {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.subtitle-home {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  color: #5B708B;
+}
+.text-home {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.button-projects {
+  color: white;
+  background-color:#007BFF;
+  font-family:Arial, Helvetica, sans-serif;
+  width: 23vh;
+  font-weight: 700;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: center;
+  border-color: transparent;
+  margin: 1em 20em;
+} 
+.button-projects:hover{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+  border-color:#e1f4ff;
+}
+
+/* Modo oscuro */
+body.dark-mode .home-container {
+  color: #fff;
+  background-color: #000;
+}
+
+body.dark-mode .title-home {
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .subtitle-home {
+  color:#007BFF;
+}
+
+body.dark-mode .text-home {
+  color: #e0e0e0;
+}
+
+body.dark-mode .button-projects {
+  background-color:#5B708B;
+  color: #fff;
+}
+
+body.dark-mode .button-projects:hover {
+  background-color:slateblue;
+}

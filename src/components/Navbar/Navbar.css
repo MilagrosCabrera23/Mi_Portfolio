@@ -1,0 +1,17 @@
+.navbar{
+  font-family: 'Montserrat', sans-serif;
+    font-size: 19px; 
+    font-style:italic;
+    background-color: #1E3A5F;
+}
+.logo-navbar{
+    color: #e1f4ff;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.titles{
+  color:white;
+  font-weight: 400;
+  font-size: 1.1em;
+  font-family:  'Roboto', sans-serif;;
+}

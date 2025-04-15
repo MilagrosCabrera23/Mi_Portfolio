@@ -4,7 +4,7 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin:15rem 17rem;
+  margin:15rem auto;
   color: #000;
 }
 .title-home {
@@ -36,7 +36,7 @@
   font-size: 1.2rem;
   justify-content: center;
   border-color: transparent;
-  margin: 1em 20em;
+  margin: 1em auto;
 } 
 .button-projects:hover{
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
@@ -70,4 +70,33 @@ body.dark-mode .button-projects {
 
 body.dark-mode .button-projects:hover {
   background-color:slateblue;
+}
+
+
+@media (min-width:350px) and (max-width:640px) {
+  .title-home {
+    font-size: 2em;
+  }
+  .subtitle-home{
+    font-size: 1.1em;
+    text-align: center;
+  }
+  .text-home{
+    font-size: 1.1em;
+  }
+  .button-projects{
+  font-size: 1em;
+  }
+}
+
+@media (min-width:700px) and (max-width:1340px) {
+  .title-home {
+    font-size: 1.6em;
+  }
+  .subtitle-home{
+    font-size: 1.1em;
+  }
+  .text-home{
+    font-size: 0.9em;
+  }
 }

@@ -38,7 +38,7 @@ const AboutMeComponent = () => {
             descargar mi CV:
           </p>
 
-          <div className="mt-3 d-flex gap-3">
+          <div className=" button-redes gap-2 d-flex">
             <a
               href="https://github.com/MilagrosCabrera23"
               target="_blank"

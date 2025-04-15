@@ -25,3 +25,21 @@
   text-align: end;
   font-family: "Roboto", sans-serif;
 }
+
+@media (min-width:500px) and (max-width:860px) {
+  .footer-text {
+    font-size: 1.1em;
+  }
+  .footer-subtitle {
+    font-size: 1em;
+  }
+}
+
+@media (min-width:910px) and (max-width: 1100px) {
+  .footer-text {
+    font-size: 1.2em;
+  }
+  .footer-subtitle {
+    font-size: 0.9em;
+  }
+}

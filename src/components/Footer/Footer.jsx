@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Nav } from "react-bootstrap";
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
 import "../Footer/Footer.css";
 
@@ -8,13 +8,13 @@ const FooterComponent = () => {
       <Container>
         <Row className="align-items-center">
           <Col className="text-md-start text-center mb-2 mb-md-0">
-            <span className="footer-text">
-              <strong>Milagros M Cabrera</strong>
-            </span>
+            <Nav.Link href="#home" className="me-3 titles">
+              Milagros M Cabrera
+            </Nav.Link>
           </Col>
 
           <Col xs={12} md="4" className="footer-icons">
-          <a
+            <a
               href="https://www.linkedin.com/in/milagros-cabrera-dev/"
               target="_blank"
               rel="noopener noreferrer"
@@ -35,13 +35,12 @@ const FooterComponent = () => {
                 <FaGithub />
               </i>
             </a>
-
-            </Col>
-            <Col>
+          </Col>
+          <Col>
             <p className="footer-subtitle">
-                © {new Date().getFullYear()} Todos los derechos reservados
-              </p>
-            </Col>
+              © {new Date().getFullYear()} Todos los derechos reservados
+            </p>
+          </Col>
         </Row>
       </Container>
     </footer>

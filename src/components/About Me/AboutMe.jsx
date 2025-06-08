@@ -1,7 +1,31 @@
 import "../About Me/AboutMe.css";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
-import { SiCodewars } from "react-icons/si";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaDownload,
+  FaPython,
+  FaReact,
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
+  FaGitAlt,
+} from "react-icons/fa";
+import {
+  SiDjango,
+  SiTestinglibrary,
+  SiBootstrap,
+  SiAngular,
+  SiSpring,
+  SiUml,
+  SiScrumalliance,
+  SiTrello,
+  SiMysql,
+  SiPostgresql,
+  SiFastapi,
+  SiSass,
+  SiJira,
+} from "react-icons/si";
 import perfilAnime from "../../assets/perfilAnime.png";
 
 const AboutMeComponent = () => {
@@ -11,28 +35,91 @@ const AboutMeComponent = () => {
         <Col className="text-start">
           <h2 className="title-about">Sobre Mi</h2>
           <p className="subtitle-about">
-            ¡Hola! Soy Milagros, desarrolladora de software en formación con
-            enfoque en el desarrollo Full Stack.
+            Soy una desarrolladora de software en formación con enfoque en el
+            desarrollo Full Stack. Me encanta transformar ideas en aplicaciones
+            funcionales, interactivas y escalables.
           </p>
-
-          <p className="subtitle-about">
-            Me encanta transformar ideas en aplicaciones funcionales,
-            interactivas y escalables.
-          </p>
-
           <h3 className="title-tecnologias text-start">
             Habilidades y Tecnologías
           </h3>
-          <p className="subtitle-about">
-            <strong className="tecnologias-bg">Backend:</strong> Python, Django, Flask, Node.js
-            <br />
-            <strong className="tecnologias-bg">Frontend:</strong> React.js, HTML, CSS, JavaScript
-            <br />
-            <strong className="tecnologias-bg">Bases de Datos:</strong> MySQL, PostgreSQL
-            <br />
-            <strong className="tecnologias-bg">Herramientas:</strong> Git, GitHub, Trello, Scrum, Jira
-          </p>
 
+          <Row className="mt-4 g-3">
+            {/* Lenguajes */}
+            <Col md={6}>
+              <div className="tech-card p-3 shadow-sm rounded border bg-white">
+                <h5 className="fw-bold text-success mb-2 text-center">
+                  Lenguajes
+                </h5>
+
+                <div className="mb-3">
+                  <div className="d-flex flex-wrap gap-3 justify-content-center">
+                    <FaReact title="React.js" className="tech-icon" />
+                    <FaJsSquare title="JavaScript" className="tech-icon" />
+                    <SiAngular title="Angular" className="tech-icon" />
+                  </div>
+                </div>
+
+                <div>
+                  <div className="d-flex flex-wrap gap-3 justify-content-center">
+                    <FaHtml5 title="HTML" className="tech-icon" />
+                    <FaCss3Alt title="CSS" className="tech-icon" />
+                    <SiBootstrap title="Bootstrap" className="tech-icon" />
+                    <SiSass title="SASS" className="tech-icon" />
+                  </div>
+                </div>
+              </div>
+            </Col>
+              <Col md={6}>
+              <div className="tech-card p-3 shadow-sm rounded border bg-white">
+                <h5 className="fw-bold text-warning mb-2 text-center">
+                  Bases de Datos y Backend
+                </h5>
+                <div className="d-flex  gap-3 align-items-center m-3">
+                  <SiMysql title="MySQL" className="tech-icon" />
+                  <SiPostgresql title="PostgreSQL" className="tech-icon" />
+                  <FaPython title="Python" className="tech-icon" />
+                  <SiDjango title="Django" className="tech-icon" />
+                  <SiFastapi title="FastAPI" className="tech-icon" />
+                </div>
+              </div>
+            </Col>
+
+               {/* Herramientas */}
+            <Col md={6}>
+              <div className="tech-card p-3 shadow-sm rounded border bg-white">
+                <h5 className="fw-bold text-danger mb-4 text-center">
+                  Herramientas
+                </h5>
+                <div className="d-flex flex-wrap gap-3 align-items-center">
+                  <FaGitAlt title="Git" className="tech-icon" />
+                  <FaGithub title="GitHub" className="tech-icon" />
+                  <SiTrello title="Trello" className="tech-icon" />
+                  <SiJira title="Jira" className="tech-icon" />
+                </div>
+              </div>
+            </Col>
+            
+            {/* Arquitectura y Metodologías */}
+            <Col md={6}>
+              <div className="tech-card p-3 shadow-sm rounded border bg-white">
+                <h5 className="fw-bold text-primary ms-2 text-center">
+                  Arquitectura y Metodologías
+                </h5>
+                <div className="d-flex gap-3 align-items-center">
+                  <SiSpring title="Patrones de Diseño" className="tech-icon" />
+                  <SiUml
+                    title="Modelado de Clases (UML)"
+                    className="tech-icon"
+                  />
+                  <SiScrumalliance title="Scrum" className="tech-icon" />
+                  <Col xs={4} className="text-center">
+                    <SiTestinglibrary title="TDD" className="tech-icon" />
+                  </Col>
+                </div>
+              </div>
+            </Col>
+            {/* Bases de datos */}
+          </Row>
           <p className="subtitle-about mt-2">
             También podés conocer más sobre mí en mis redes profesionales o
             descargar mi CV:
@@ -64,21 +151,9 @@ const AboutMeComponent = () => {
             </a>
 
             <a
-              href="https://www.codewars.com/users/milagrosmagaly"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-danger"
-            >
-              <i className="me-2">
-                <SiCodewars />
-              </i>{" "}
-              Codewars
-            </a>
-
-            <a
               href="/cv-milagros-cabrera.docx"
               download
-              className="btn btn-success"
+              className=" btn btn-cv"
             >
               <i className="me-2">
                 <FaDownload />

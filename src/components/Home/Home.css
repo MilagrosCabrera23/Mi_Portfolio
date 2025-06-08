@@ -1,62 +1,70 @@
+
 .home-container {
-  padding: 50px;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin:15rem auto;
-  color: #000;
+  max-width: 75rem;
+  width: 100%;
+    height: 100vh; 
 }
+
 .title-home {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 3rem;
   font-weight: bold;
-  color: black;
+  color: #0a4fe2;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
+
 .subtitle-home {
   font-family: "Roboto", sans-serif;
   font-size: 1.8rem;
-  color: #5B708B;
+  color: #e913b3;
 }
+
 .text-home {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  color: black;
-  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  color: #2c2c2c;
+  font-weight: 400;
   margin-bottom: 20px;
 }
+
 .button-projects {
   color: white;
-  background-color:#007BFF;
-  font-family:Arial, Helvetica, sans-serif;
+  background-color: #ff499e;
+  font-family: "Poppins", sans-serif;
   width: 23vh;
   font-weight: 700;
   display: flex;
   font-size: 1.2rem;
   justify-content: center;
-  border-color: transparent;
+  border: none;
   margin: 1em auto;
-} 
-.button-projects:hover{
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.button-projects:hover {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   transform: scale(1.05);
-  border-color:#e1f4ff;
+  background-color: #A663CC;
+  border-color: transparent;
 }
 
 /* Modo oscuro */
-body.dark-mode .home-container {
+/* body.dark-mode .home-container {
   color: #fff;
-  background-color: #000;
 }
 
 body.dark-mode .title-home {
-  color: #fff;
+  color: #B298DC;
   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
 }
 
 body.dark-mode .subtitle-home {
-  color:#007BFF;
+  color: #B8D0EB;
 }
 
 body.dark-mode .text-home {
@@ -64,28 +72,28 @@ body.dark-mode .text-home {
 }
 
 body.dark-mode .button-projects {
-  background-color:#5B708B;
+  background-color: #A663CC;
   color: #fff;
 }
 
 body.dark-mode .button-projects:hover {
-  background-color:slateblue;
-}
+  background-color: #6F2DBD;
+} */
 
-
+/* Responsive */
 @media (min-width:350px) and (max-width:640px) {
   .title-home {
     font-size: 2em;
   }
-  .subtitle-home{
+  .subtitle-home {
     font-size: 1.1em;
     text-align: center;
   }
-  .text-home{
+  .text-home {
     font-size: 1.1em;
   }
-  .button-projects{
-  font-size: 1em;
+  .button-projects {
+    font-size: 1em;
   }
 }
 
@@ -93,10 +101,10 @@ body.dark-mode .button-projects:hover {
   .title-home {
     font-size: 1.6em;
   }
-  .subtitle-home{
+  .subtitle-home {
     font-size: 1.1em;
   }
-  .text-home{
+  .text-home {
     font-size: 0.9em;
   }
 }

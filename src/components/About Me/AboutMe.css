@@ -1,5 +1,9 @@
+
 .about-container {
   background-color: white;
+   max-width: 75rem;
+   margin: 0 auto;
+   width: 100%;
 }
 .row-about {
   display: flex;
@@ -8,17 +12,17 @@
   gap: 2rem;
 }
 .title-about {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
   font-weight: bold;
-  color: #5b708b;
+ color:  #0a4fe2;
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 .subtitle-about {
   font-family: "Roboto", sans-serif;
-  font-size: 1.4rem;
-  color: #4a4a4a;
+  font-size: 1.3rem;
+   color: #2c2c2c;
   line-height: 1.6;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -26,8 +30,26 @@
   font-family: "Montserrat", sans-serif;
   font-size: 2.3rem;
   font-weight: bold;
-  color: #007bff;
+   color: #e913b3;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.tech-icon {
+  font-size: 2.5rem;
+   color: #617bb3;
+   font-weight: bold;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.tech-icon:hover {
+  transform: scale(1.2);
+  color: #b744b8;;
+}
+
+.tech-card {
+  transition: transform 0.3s ease;
+}
+.tech-card:hover {
+  transform: translateY(-5px);
 }
 .imagen-about {
   margin: 3em;
@@ -35,8 +57,13 @@
   border-radius: 100rem;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
-
-body.dark-mode .about-container {
+.btn-cv{
+  background-color: #e913b3; 
+  color:  #ffffff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+/* body.dark-mode .about-container {
   background-color: black;
 }
 body.dark-mode .title-about {
@@ -48,7 +75,7 @@ body.dark-mode .subtitle-about {
 }
 body.dark-mode .tecnologias-bg {
   color: #f1c40f;
-}
+} */
 
 @media (min-width: 320px) and (max-width: 640px) {
   .title-about {

@@ -1,4 +1,5 @@
 import "../Contact/Contact.css";
+import { useState } from "react";
 import { Container, Col, Button, Form } from "react-bootstrap";
 
 const ContactComponent = () => {

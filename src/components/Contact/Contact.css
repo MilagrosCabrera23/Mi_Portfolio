@@ -3,7 +3,7 @@
   font-size: 2.3rem;
   font-weight: bold;
   margin:1.5em; 
-  color: #5b708b;
+  color: #ff499e;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 .subtitle-contacto {
@@ -13,15 +13,17 @@
   text-align: center;
   color: #4a4a4a;
 }
+
 .text-forms {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.1em;
   line-height: 1.6;
+  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: black;
-  font-weight: 600;
+   color:#007bff;
+  font-weight: 500;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 .form-contacto {
@@ -37,11 +39,12 @@
   border: 1px solid #ccc;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   margin-bottom: 1rem;
+  text-align: center;
   transition: all 0.3s ease;
 }
 
 .button-contacto {
-  background-color: #007bff;
+  background-color: #823fd3;
   display: flex;
   justify-content: center;
   border: transparent;
@@ -54,7 +57,7 @@
   align-items: center;
   font-family: "Montserrat", sans-serif;
 }
-body.dark-mode {
+/* body.dark-mode {
   background-color: black;
 }
 body.dark-mode .about-contacto {
@@ -68,7 +71,7 @@ body.dark-mode .subtitle-contacto {
 }
 body.dark-mode .text-forms {
   color: #4da8da;
-}
+} */
 
 @media (min-width: 320px) and (max-width: 740px) {
   .title-contacto {

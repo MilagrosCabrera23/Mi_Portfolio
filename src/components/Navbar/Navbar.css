@@ -1,23 +1,27 @@
-.navbar{
-  font-family: 'Montserrat', sans-serif;
-    font-size: 19px; 
-    font-style:italic;
-    background-color: #1E3A5F;
+.navbar {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  background-color: #ff499e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.logo-navbar{
-    color: #e1f4ff;
-    font-size: 1.3em;
-    font-weight: 700;
+.logo-navbar {
+  color: #e1f4ff;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.5em;
 }
-.titles{
-  color:white;
-  font-weight: 400;
-  font-size: 1.1em;
-  font-family:  'Roboto', sans-serif;;
+.titles {
+  font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
 }
 
-@media(min-width:360px) and (max-width:780px){
-  .logo-navbar{
+@media (min-width: 360px) and (max-width: 780px) {
+  .logo-navbar {
     font-size: 1.2em;
   }
   .div-titles .titles {
@@ -25,7 +29,7 @@
   }
 }
 
-@media (min-width:830px) and (max-width:1150px){
+@media (min-width: 830px) and (max-width: 1150px) {
   .logo-navbar {
     font-size: 1.4rem;
   }
@@ -33,4 +37,3 @@
     font-size: 1.1rem;
   }
 }
-

@@ -1,7 +1,7 @@
 .footer {
-  background-color: #0d3b66;
-  color: white;
-}
+ font-family: "Roboto", sans-serif;
+  font-style: italic;
+  background-color: #ff499e;}
 
 .footer-text {
   font-size: 1.5em;

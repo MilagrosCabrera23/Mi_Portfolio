@@ -1,29 +1,28 @@
-
 .about-container {
   background-color: white;
-   max-width: 75rem;
-   margin: 0 auto;
-   width: 100%;
-   height: 100vh;
+  max-width: 75rem;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
 }
 .row-about {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1.2rem;
 }
 .title-about {
   font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
- color:  #0a4fe2;
+  color: #0a4fe2;
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 .subtitle-about {
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
-   color: #2c2c2c;
+  color: #2c2c2c;
   line-height: 1.6;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -31,13 +30,13 @@
   font-family: "Montserrat", sans-serif;
   font-size: 2.3rem;
   font-weight: bold;
-   color: #e913b3;
+  color: #e913b3;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 .tech-icon {
   font-size: 2.5rem;
-   color: #617bb3;
-   font-weight: bold;
+  color: #617bb3;
+  font-weight: bold;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
@@ -53,20 +52,20 @@
   transform: translateY(-5px);
 }
 .imagen-about {
-  margin: 3em;
+  margin-left: 2rem;
   width: 100%;
-  border-radius: 100rem;
+  border-radius: 50%;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
-.btn-cv{
-  background-color: #e913b3; 
-  color:  #ffffff;
+.btn-cv {
+  background-color: #e913b3;
+  color: #ffffff;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
 /* MODO OSCURO */
- body.dark-mode .about-container {
-   background-color: #1a1a1a;
+body.dark-mode .about-container {
+  background-color: #1a1a1a;
 }
 body.dark-mode .title-about {
   color: #bb1090;
@@ -75,19 +74,25 @@ body.dark-mode .subtitle-about {
   color: white;
 }
 body.dark-mode .title-tecnologias {
- color: rgb(115, 37, 218) 
+  color: #2563b4;
 }
 
-
 @media (min-width: 220px) and (max-width: 640px) {
-  .about-container{
-       height: auto;
-      padding-top: 1.2rem;
-      gap: 1rem;
+
+  .about-container {
+    height: auto;
+    padding-top: 1.2rem;
+    gap: 1rem;
+  }
+  .imagen-about {
+    width: 100%;
+    height:26vh;
+    margin: 0 auto;
+    object-fit: contain;
+  border-radius: 10%;
   }
   .title-about {
     font-size: 1.5em;
-
   }
   .subtitle-about {
     font-size: 1.1em;
@@ -100,15 +105,11 @@ body.dark-mode .title-tecnologias {
     font-size: 1.1em;
   }
   .button-redes {
-    width: auto;
-    height: 5vh;
-  }
-  .imagen-about {
-    display: none;
+   flex-direction: column;
   }
   .btn {
-    width: auto;
-    height: 5vh;
+    width: 100%;
+    max-height: 18rem;
   }
 }
 
@@ -135,5 +136,4 @@ body.dark-mode .title-tecnologias {
   .button-redes {
     width: 10vh;
   }
-  
 }

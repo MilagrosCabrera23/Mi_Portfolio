@@ -54,7 +54,7 @@ const ContactComponent = () => {
           <Button
             variant="primary"
             type="submit"
-            className="mt-3 button-contacto"
+            className="mb-2 button-contacto d-flex"
           >
             Enviar mensaje
           </Button>

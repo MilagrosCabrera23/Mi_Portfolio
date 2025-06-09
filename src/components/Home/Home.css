@@ -35,7 +35,7 @@
   background-color: #ff499e;
   font-family: "Poppins", sans-serif;
   width: 23vh;
-  font-weight: 700;
+  font-weight: 600;
   display: flex;
   font-size: 1.2rem;
   justify-content: center;
@@ -75,8 +75,8 @@ body.dark-mode .button-projects {
 @media (min-width: 250px) and (max-width: 640px) {
    .home-container {
     height: auto;
-    padding-top: 4rem; 
-    gap: 1rem; /* separación entre elementos */
+    padding-top: 3rem; 
+    gap: 1rem; 
   }
   .title-home {
     font-size: 1.7em;

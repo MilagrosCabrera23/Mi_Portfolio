@@ -71,8 +71,6 @@
   background-color: #49b6ff;
   color: white;
 }
-
-
 .img-proyectos {
   max-height: 30%;
   width: 30%;
@@ -80,21 +78,19 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* body.dark-mode .about-projects {
-  background-color: black;
-}
+
 body.dark-mode .title-projects {
   color: #4da8da;
 }
 body.dark-mode .subtitle-projects {
   color: #f5f5f5;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 body.dark-mode .text-projects {
   margin: 0.5em;
   color: #f5f5f5;
-} */
+} 
 
 @media (min-width: 320px) and (max-width: 740px) {
   .title-projects {

@@ -54,31 +54,25 @@
 }
 
 /* Modo oscuro */
-/* body.dark-mode .home-container {
-  color: #fff;
-}
-
-body.dark-mode .title-home {
-  color: #B298DC;
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+ body.dark-mode .home-container {
+  background-color: #1a1a1a;
 }
 
 body.dark-mode .subtitle-home {
-  color: #B8D0EB;
+  color: #bb1090;
 }
 
 body.dark-mode .text-home {
-  color: #e0e0e0;
+  color: white;
+  font-weight: 500;
 }
 
 body.dark-mode .button-projects {
-  background-color: #A663CC;
-  color: #fff;
+  background-color:  #1e4b7a;
+  color: white; 
 }
 
-body.dark-mode .button-projects:hover {
-  background-color: #6F2DBD;
-} */
+
 
 /* Responsive */
 @media (min-width:350px) and (max-width:640px) {

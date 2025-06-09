@@ -42,7 +42,7 @@
 
 .tech-icon:hover {
   transform: scale(1.2);
-  color: #b744b8;;
+  color: #b744b8;
 }
 
 .tech-card {
@@ -63,19 +63,20 @@
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
-/* body.dark-mode .about-container {
-  background-color: black;
+ body.dark-mode .about-container {
+   background-color: #1a1a1a;
 }
 body.dark-mode .title-about {
-  color: #4da8da;
+  color: #bb1090;
 }
-
 body.dark-mode .subtitle-about {
   color: white;
 }
-body.dark-mode .tecnologias-bg {
-  color: #f1c40f;
-} */
+body.dark-mode .title-tecnologias {
+ color: rgb(115, 37, 218) 
+}
+
+
 
 @media (min-width: 320px) and (max-width: 640px) {
   .title-about {

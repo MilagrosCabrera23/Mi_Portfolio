@@ -9,7 +9,7 @@
   font-style: italic;
 }
 .footer-icons {
-  border-radius: 50%;
+  max-width: 50%;
   display:flex ;
   gap: 1em;
   text-align: center;
@@ -26,7 +26,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-@media (min-width:500px) and (max-width:860px) {
+@media (min-width:200px) and (max-width:860px) {
   .footer-text {
     font-size: 1.1em;
   }

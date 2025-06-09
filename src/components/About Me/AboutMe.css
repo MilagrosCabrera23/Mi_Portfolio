@@ -4,6 +4,7 @@
    max-width: 75rem;
    margin: 0 auto;
    width: 100%;
+   height: 100vh;
 }
 .row-about {
   display: flex;
@@ -63,6 +64,7 @@
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
+/* MODO OSCURO */
  body.dark-mode .about-container {
    background-color: #1a1a1a;
 }
@@ -77,31 +79,36 @@ body.dark-mode .title-tecnologias {
 }
 
 
-
-@media (min-width: 320px) and (max-width: 640px) {
+@media (min-width: 220px) and (max-width: 640px) {
+  .about-container{
+       height: auto;
+      padding-top: 1.2rem;
+      gap: 1rem;
+  }
   .title-about {
     font-size: 1.5em;
+
   }
   .subtitle-about {
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: center;
   }
   .title-tecnologias {
-    font-size: 1.4em;
-    justify-content: center;
-    text-align: center;
+    font-size: 1.3em;
   }
   .tecnologias-bg {
-    font-size: 1em;
+    font-size: 1.1em;
   }
   .button-redes {
-    display: flex;
     width: auto;
-    height: 10vh;
-    gap: 0.5em;
+    height: 5vh;
   }
   .imagen-about {
     display: none;
+  }
+  .btn {
+    width: auto;
+    height: 5vh;
   }
 }
 

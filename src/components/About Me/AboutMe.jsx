@@ -39,7 +39,7 @@ const AboutMeComponent = () => {
             desarrollo Full Stack. Me encanta transformar ideas en aplicaciones
             funcionales, interactivas y escalables.
           </p>
-          <h3 className="title-tecnologias text-start">
+          <h3 className="title-tecnologias text-center">
             Habilidades y Tecnologías
           </h3>
 
@@ -125,7 +125,7 @@ const AboutMeComponent = () => {
             descargar mi CV:
           </p>
 
-          <div className=" button-redes gap-2 d-flex">
+          <div className=" button-redes gap-3 d-flex">
             <a
               href="https://github.com/MilagrosCabrera23"
               target="_blank"

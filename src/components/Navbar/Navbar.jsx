@@ -27,17 +27,6 @@ const NavbarComponent = ({ toggleDarkMode, darkMode }) => {
                 Contacto
               </Nav.Link>
             </Nav>
-
-            <div>
-              <BsToggle2Off
-                onClick={toggleDarkMode}
-                style={{
-                  fontSize: "38px",
-                  cursor: "pointer",
-                  color: darkMode ? "#fff" : "#000",
-                }}
-              />
-            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>

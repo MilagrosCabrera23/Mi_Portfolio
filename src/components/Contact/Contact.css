@@ -4,11 +4,11 @@
   width: 100%;
 }
 .title-contacto {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 2.3rem;
   font-weight: bold;
   padding-top: 2.4rem;
-  color: #ff499e;
+  color: #e913b3;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 .subtitle-contacto {
@@ -16,7 +16,7 @@
   font-size: 1.4rem;
   line-height: 1.6;
   text-align: center;
-  color: #4a4a4a;
+  color: #dddddd;
 }
 
 .text-forms {
@@ -27,21 +27,22 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #007bff;
-  font-weight: 500;
+ color: #38bdf8;
+  font-weight: 600;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 .form-contacto {
   width: 100%;
   max-width: 450px;
   margin: 0 auto;
+   outline: none;
 }
 
 .form-contacto .form-control {
   padding: 12px 16px;
   font-size: 1rem;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: none;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   margin-bottom: 1rem;
   text-align: center;
@@ -50,9 +51,9 @@
 
 .button-contacto {
   border: transparent;
-background-color: #03A9F4;
+background-color: #e913b3; 
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0.4em auto;
   border-radius: 6px;
   color: #ffffff;
@@ -60,7 +61,10 @@ background-color: #03A9F4;
   justify-content: center;
   font-family: "Poppins", sans-serif;
 }
-
+.button-contacto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #ff64c9;
+}
 body.dark-mode {
   background-color: #1a1a1a;
 }

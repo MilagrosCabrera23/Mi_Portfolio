@@ -56,25 +56,6 @@
   border-color: transparent;
 }
 
-/* Modo oscuro */
-body.dark-mode .home-container {
-  background-color: #1a1a1a;
-}
-
-body.dark-mode .subtitle-home {
-  color: #bb1090;
-}
-
-body.dark-mode .text-home {
-  color: white;
-  font-weight: 500;
-}
-
-body.dark-mode .button-projects {
-  background-color: #1e4b7a;
-  color: white;
-}
-
 /* Responsive */
 @media (min-width: 250px) and (max-width: 640px) {
    .home-container {

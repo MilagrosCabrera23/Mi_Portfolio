@@ -6,6 +6,7 @@ import AboutMeComponent from "./components/About Me/AboutMe";
 import ProjectsComponent from "./components/Projects/Projects";
 import ContactComponent from "./components/Contact/Contact";
 import FooterComponent from "./components/Footer/Footer";
+import BackgroundComponent from "./components/Background/Background";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -51,6 +52,7 @@ function App() {
       ) : (
         <>
           <NavbarComponent  toggleDarkMode={toggleDarkMode} darkMode={darkMode}/>
+          <BackgroundComponent/>
           <HomeComponent />
           <AboutMeComponent />
           <ProjectsComponent />

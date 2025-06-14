@@ -26,24 +26,29 @@ import {
   SiSass,
   SiJira,
 } from "react-icons/si";
-import perfilAnime from "../../assets/perfilAnime.png";
+import { motion } from "framer-motion";
+import perfilAnime from "../../assets/img/perfilanime.png";
 
 const AboutMeComponent = () => {
   return (
     <Container className="about-container" id="sobre-mi">
       <Row className="row-about align-items-center flex-column flex-md-row">
-     
         <Col className="text-start ">
-          <h2 className="title-about">Sobre Mi</h2>
-          <p className="subtitle-about">
-            Soy una desarrolladora de software en formación con enfoque en el
-            desarrollo Full Stack. Me encanta transformar ideas en aplicaciones
-            funcionales, interactivas y escalables.
-          </p>
-          <h3 className="title-tecnologias text-center">
-            Habilidades y Tecnologías
-          </h3>
-
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.9 }}
+          >
+            <h2 className="title-about">Sobre Mi</h2>
+            <p className="subtitle-about">
+              Soy una desarrolladora de software en formación con enfoque en el
+              desarrollo Full Stack. Me encanta transformar ideas en
+              aplicaciones funcionales, interactivas y escalables.
+            </p>
+            <h3 className="title-tecnologias text-center">
+              Habilidades y Tecnologías
+            </h3>
+          </motion.div>
           <Row className="g-3 row-about">
             {/* Lenguajes */}
             <Col md={6}>

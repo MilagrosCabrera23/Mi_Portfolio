@@ -7,11 +7,10 @@ const HomeComponent = () => {
     <Container className="home-container" id="home">
       <Row className="align-items-center">
         <Col className="text-center">
-        
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
+            initial={{ opacity: 0, scale: 0.8, rotateX: -30 }}
+            animate={{ opacity: 1, scale: 1, rotateX: 0 }}
+            transition={{ duration: 1, type: "spring", stiffness: 80 }}
           >
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
@@ -37,8 +36,10 @@ const HomeComponent = () => {
               transition={{ duration: 1, delay: 1 }}
               className="text-home mt-3"
             >
-              Soy una apasionada por la tecnología y el desarrollo web.<br />
-              Disfruto viajar, descubrir nuevos lugares y aprender algo nuevo cada día.
+              Soy una apasionada por la tecnología y el desarrollo web.
+              <br />
+              Disfruto viajar, descubrir nuevos lugares y aprender algo nuevo
+              cada día.
             </motion.p>
 
             <motion.div
@@ -46,7 +47,12 @@ const HomeComponent = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 1.5 }}
             >
-              <Button variant="primary" className="button-projects" href="#proyectos" id="proyectos">
+              <Button
+                variant="primary"
+                className="button-projects"
+                href="#proyectos"
+                id="proyectos"
+              >
                 Ver proyectos
               </Button>
             </motion.div>
@@ -58,4 +64,3 @@ const HomeComponent = () => {
 };
 
 export default HomeComponent;
-

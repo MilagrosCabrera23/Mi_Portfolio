@@ -19,7 +19,7 @@ const HomeComponent = () => {
               className="title-home text"
             >
               ¡Hola! Soy Milagros Cabrera
-            </motion.h1>
+            </motion.h1>  
 
             <motion.strong
               initial={{ opacity: 0, y: 20 }}

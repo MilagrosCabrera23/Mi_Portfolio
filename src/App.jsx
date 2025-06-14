@@ -51,8 +51,9 @@ function App() {
         <LoadingComponent />
       ) : (
         <>
+         <BackgroundComponent/>
           <NavbarComponent  toggleDarkMode={toggleDarkMode} darkMode={darkMode}/>
-          <BackgroundComponent/>
+         
           <HomeComponent />
           <AboutMeComponent />
           <ProjectsComponent />

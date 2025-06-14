@@ -49,6 +49,7 @@ const AboutMeComponent = () => {
               Habilidades y Tecnologías
             </h3>
           </motion.div>
+          
           <Row className="g-3 row-about">
             {/* Lenguajes */}
             <Col md={6}>
@@ -127,10 +128,18 @@ const AboutMeComponent = () => {
             </Col>
             {/* Bases de datos */}
           </Row>
+
+          <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 1, delay: 2 }}
+              className="text-home mt-3"
+            >
           <p className="subtitle-about mt-2">
             También podés conocer más sobre mí en mis redes profesionales o
             descargar mi CV:
           </p>
+        </motion.p>
 
           <div className="button-redes gap-3 d-flex">
             <a
@@ -168,6 +177,7 @@ const AboutMeComponent = () => {
               Descargar mi CV
             </a>
           </div>
+         
         </Col>
 
         <Col className="text-center">

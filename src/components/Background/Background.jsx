@@ -11,7 +11,7 @@ return (
         muted
         playsInline
       >
-        <source src="../src/assets/videos/background1.mp4" type="video/mp4" />
+        <source src="../src/assets/videos/background6.mp4" type="video/mp4" />
         
       </video>
        <div className="video-overlay" />

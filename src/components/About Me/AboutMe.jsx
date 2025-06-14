@@ -52,7 +52,7 @@ const AboutMeComponent = () => {
           <Row className="g-3 row-about">
             {/* Lenguajes */}
             <Col md={6}>
-              <div className="tech-card p-3 shadow-sm rounded border bg-white">
+              <div className="tech-card p-3 shadow-sm rounded">
                 <h5 className="fw-bold text-success mb-2 text-center">
                   Lenguajes
                 </h5>
@@ -77,7 +77,7 @@ const AboutMeComponent = () => {
             </Col>
 
             <Col md={6}>
-              <div className="tech-card p-3 shadow-sm rounded border bg-white">
+              <div className="tech-card p-3 shadow-sm rounded">
                 <h5 className="fw-bold text-warning mb-2 text-center">
                   Bases de Datos y Backend
                 </h5>
@@ -93,7 +93,7 @@ const AboutMeComponent = () => {
 
             {/* Herramientas */}
             <Col md={6}>
-              <div className="tech-card p-3 shadow-sm rounded border bg-white">
+              <div className="tech-card p-3 shadow-sm rounded">
                 <h5 className="fw-bold text-danger mb-4 text-center">
                   Herramientas
                 </h5>
@@ -108,7 +108,7 @@ const AboutMeComponent = () => {
 
             {/* Arquitectura y Metodologías */}
             <Col md={6}>
-              <div className="tech-card p-3 shadow-sm rounded border bg-white">
+              <div className="tech-card p-3 shadow-sm rounded">
                 <h5 className="fw-bold text-primary ms-2 text-center">
                   Arquitectura y Metodologías
                 </h5>
@@ -132,7 +132,7 @@ const AboutMeComponent = () => {
             descargar mi CV:
           </p>
 
-          <div className=" button-redes gap-3 d-flex">
+          <div className="button-redes gap-3 d-flex">
             <a
               href="https://github.com/MilagrosCabrera23"
               target="_blank"

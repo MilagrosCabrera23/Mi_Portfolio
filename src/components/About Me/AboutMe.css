@@ -1,5 +1,5 @@
 .about-container {
-max-width: 75rem;
+  max-width: 75rem;
   width: 100%;
   margin: 0 auto;
   height: 100vh;
@@ -8,27 +8,28 @@ max-width: 75rem;
   font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
-  color: #0a4fe2;
+  color: #60eaff;
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 .subtitle-about {
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
-  color: #2c2c2c;
+ color: #ffffff;
   line-height: 1.6;
+  font-size: 700;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 .title-tecnologias {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 2.3rem;
   font-weight: bold;
-  color: #e913b3;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+color: #ff5fcf;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 .tech-icon {
   font-size: 2.5rem;
-  color: #617bb3;
+ color: #7aa6f5;
   font-weight: bold;
   transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -40,6 +41,7 @@ max-width: 75rem;
 
 .tech-card {
   transition: transform 0.3s ease;
+  
 }
 .tech-card:hover {
   transform: translateY(-5px);
@@ -51,11 +53,24 @@ max-width: 75rem;
   border-radius: 50%;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
+.button-redes{
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
 .btn-cv {
   background-color: #e913b3;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 700;
   font-family: "Poppins", sans-serif;
+}
+
+.btn-cv:hover {
+  background-color: #d10fa5;
+  box-shadow: 0 0 10px #ff64c9;
+ color: #ffffff;
+  font-weight: 700;
+  transform: scale(1.05);
 }
 /* MODO OSCURO */
 body.dark-mode .about-container {
@@ -78,7 +93,7 @@ body.dark-mode .title-tecnologias {
     gap: 1rem;
   }
   .imagen-about {
-   display: none;
+    display: none;
   }
   .title-about {
     font-size: 1.5em;

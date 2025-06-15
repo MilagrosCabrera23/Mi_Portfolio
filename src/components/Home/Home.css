@@ -64,28 +64,17 @@
     gap: 1rem; 
   }
   .title-home {
-    font-size: 1.7em;
+    font-size: 1.9rem;
   }
   .subtitle-home {
-    font-size: 1.3em;
+    font-size: 1.4rem;
     text-align: center;
   }
   .text-home {
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
   .button-projects {
     font-size: 1em;
   }
 }
 
-@media (min-width: 700px) and (max-width: 1340px) {
-  .title-home {
-    font-size: 1.6em;
-  }
-  .subtitle-home {
-    font-size: 1.1em;
-  }
-  .text-home {
-    font-size: 0.9em;
-  }
-}

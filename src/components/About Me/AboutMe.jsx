@@ -49,7 +49,6 @@ const AboutMeComponent = () => {
               Habilidades y Tecnologías
             </h3>
           </motion.div>
-          
           <Row className="g-3 row-about">
             {/* Lenguajes */}
             <Col md={6}>
@@ -57,37 +56,58 @@ const AboutMeComponent = () => {
                 <h5 className="fw-bold text-success mb-2 text-center">
                   Lenguajes
                 </h5>
-
-                <div className="mb-3">
-                  <div className="d-flex flex-wrap gap-3 justify-content-center">
-                    {" "}
-                    <FaReact title="React.js" className="tech-icon" />
-                    <FaJsSquare title="JavaScript" className="tech-icon" />
-                    <SiAngular title="Angular" className="tech-icon" />
+                <div className="d-flex flex-wrap gap-3 justify-content-center">
+                  <div className="tech-item">
+                    <FaReact className="tech-icon-circle" />
+                    <small className="tech-label">React.js</small>
                   </div>
-                </div>
-                <div>
-                  <div className="d-flex flex-wrap gap-3 justify-content-center">
-                    <FaHtml5 title="HTML" className="tech-icon" />
-                    <FaCss3Alt title="CSS" className="tech-icon" />
-                    <SiBootstrap title="Bootstrap" className="tech-icon" />
-                    <SiSass title="SASS" className="tech-icon" />
+                  <div className="tech-item">
+                    <FaJsSquare className="tech-icon-circle" />
+                    <small className="tech-label">JavaScript</small>
+                  </div>
+                  <div className="tech-item">
+                    <SiAngular className="tech-icon-circle" />
+                    <small className="tech-label">Angular</small>
+                  </div>
+                  <div className="tech-item">
+                    <FaHtml5 className="tech-icon-circle" />
+                    <small className="tech-label">HTML</small>
+                  </div>
+                  <div className="tech-item">
+                    <FaCss3Alt className="tech-icon-circle" />
+                    <small className="tech-label">CSS</small>
                   </div>
                 </div>
               </div>
             </Col>
 
+            {/* Bases de Datos y Backend */}
             <Col md={6}>
               <div className="tech-card p-3 shadow-sm rounded">
                 <h5 className="fw-bold text-warning mb-2 text-center">
                   Bases de Datos y Backend
                 </h5>
-                <div className="d-flex  gap-3 align-items-center m-3">
-                  <SiMysql title="MySQL" className="tech-icon" />
-                  <SiPostgresql title="PostgreSQL" className="tech-icon" />
-                  <FaPython title="Python" className="tech-icon" />
-                  <SiDjango title="Django" className="tech-icon" />
-                  <SiFastapi title="FastAPI" className="tech-icon" />
+                <div className="d-flex flex-wrap gap-3 justify-content-center">
+                  <div className="tech-item">
+                    <SiMysql className="tech-icon-circle" />
+                    <small className="tech-label">MySQL</small>
+                  </div>
+                  <div className="tech-item">
+                    <SiPostgresql className="tech-icon-circle" />
+                    <small className="tech-label">PostgreSQL</small>
+                  </div>
+                  <div className="tech-item">
+                    <FaPython className="tech-icon-circle" />
+                    <small className="tech-label">Python</small>
+                  </div>
+                  <div className="tech-item">
+                    <SiDjango className="tech-icon-circle" />
+                    <small className="tech-label">Django</small>
+                  </div>
+                  <div className="tech-item">
+                    <SiFastapi className="tech-icon-circle" />
+                    <small className="tech-label">FastAPI</small>
+                  </div>
                 </div>
               </div>
             </Col>
@@ -95,51 +115,60 @@ const AboutMeComponent = () => {
             {/* Herramientas */}
             <Col md={6}>
               <div className="tech-card p-3 shadow-sm rounded">
-                <h5 className="fw-bold text-danger mb-4 text-center">
+                <h5 className="fw-bold text-danger mb-2 text-center">
                   Herramientas
                 </h5>
-                <div className="d-flex flex-wrap gap-3 align-items-center">
-                  <FaGitAlt title="Git" className="tech-icon" />{" "}
-                  <FaGithub title="GitHub" className="tech-icon" />
-                  <SiTrello title="Trello" className="tech-icon" />
-                  <SiJira title="Jira" className="tech-icon" />
+                <div className="d-flex flex-wrap gap-3 justify-content-center">
+                  <div className="tech-item">
+                    <FaGitAlt className="tech-icon-circle" />
+                    <small className="tech-label">Git</small>
+                  </div>
+                  <div className="tech-item">
+                    <FaGithub className="tech-icon-circle" />
+                    <small className="tech-label">GitHub</small>
+                  </div>
+                  <div className="tech-item">
+                    <SiBootstrap className="tech-icon-circle" />
+                    <small className="tech-label">Bootstrap</small>
+                  </div>
                 </div>
               </div>
             </Col>
 
             {/* Arquitectura y Metodologías */}
             <Col md={6}>
-              <div className="tech-card p-3 shadow-sm rounded">
-                <h5 className="fw-bold text-primary ms-2 text-center">
+              <div className="tech-card me-3 shadow-sm rounded">
+                <h5 className="fw-bold text-primary text-center">
                   Arquitectura y Metodologías
                 </h5>
-                <div className="d-flex gap-3 align-items-center">
-                  <SiSpring title="Patrones de Diseño" className="tech-icon" />
-                  <SiUml
-                    title="Modelado de Clases (UML)"
-                    className="tech-icon"
-                  />
-                  <SiScrumalliance title="Scrum" className="tech-icon" />
-                  <Col xs={4} className="text-center">
-                    <SiTestinglibrary title="TDD" className="tech-icon" />
-                  </Col>
+                <div className="d-flex flex-wrap gap-3 justify-content-center">
+                  <div className="tech-item">
+                    <SiSpring className="tech-icon-circle" />
+                    <small className="tech-label">Patrones</small>
+                  </div>
+                  <div className="tech-item">
+                    <SiUml className="tech-icon-circle" />
+                    <small className="tech-label">UML</small>
+                  </div>
+                  <div className="tech-item">
+                    <SiScrumalliance className="tech-icon-circle" />
+                    <small className="tech-label">Scrum</small>
+                  </div>
                 </div>
               </div>
             </Col>
-            {/* Bases de datos */}
           </Row>
-
           <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1, delay: 2 }}
-              className="text-home mt-3"
-            >
-          <p className="subtitle-about mt-2">
-            También podés conocer más sobre mí en mis redes profesionales o
-            descargar mi CV:
-          </p>
-        </motion.p>
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 2 }}
+            className="text-home mt-3"
+          >
+            <p className="subtitle-about mt-2">
+              También podés conocer más sobre mí en mis redes profesionales o
+              descargar mi CV:
+            </p>
+          </motion.p>
 
           <div className="button-redes gap-3 d-flex">
             <a
@@ -177,14 +206,26 @@ const AboutMeComponent = () => {
               Descargar mi CV
             </a>
           </div>
-         
         </Col>
 
         <Col className="text-center">
-          <img
+          <motion.img
             src={perfilAnime}
-            className="imagen-about text-start"
             alt="foto de perfil animada"
+            className="imagen-about text-start"
+            initial={false}
+            whileHover={{
+              scale: [null, 1.1, 1.6],
+              transition: {
+                duration: 0.5,
+                times: [0, 0.6, 1],
+                ease: ["easeInOut", "easeOut"],
+              },
+            }}
+            transition={{
+              duration: 0.3,
+              ease: "easeOut",
+            }}
           />
         </Col>
       </Row>

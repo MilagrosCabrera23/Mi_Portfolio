@@ -33,7 +33,7 @@ const ProjectsComponent = () => {
                     >
           <h2 className="text-center title-projects">Mis Proyectos</h2>
           </motion.h1>
-            <motion.strong
+            <motion.h1
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, delay:2 }}
@@ -42,7 +42,7 @@ const ProjectsComponent = () => {
           <p className="text-center subtitle-projects">
             A continuación te muestro algunos de los proyectos que he realizado
             en este último tiempo, usando distintas tecnologías.
-          </p></motion.strong>
+          </p></motion.h1>
            </motion.div> 
         </Col>
       </Row>

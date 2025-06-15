@@ -27,16 +27,24 @@
 color: #ff5fcf;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
-.tech-icon {
-  font-size: 2.5rem;
- color: #7aa6f5;
-  font-weight: bold;
-  transition: transform 0.3s ease, color 0.3s ease;
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 18rem;
+}
+.tech-icon-circle {
+  border-radius: 50%;
+  color: #32a0b1;
+  font-size: 2.1rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.tech-icon:hover {
-  transform: scale(1.2);
-  color: #b744b8;
+.tech-label {
+  font-size: 1.1rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 .tech-card {
@@ -47,11 +55,9 @@ color: #ff5fcf;
   transform: translateY(-5px);
 }
 .imagen-about {
-  height: auto;
-  max-width: 100%;
-  object-fit: contain;
-  border-radius: 50%;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+border-radius:50%; 
+      width: 100%;    
+      max-width: 400px; 
 }
 .button-redes{
   font-weight: 700;

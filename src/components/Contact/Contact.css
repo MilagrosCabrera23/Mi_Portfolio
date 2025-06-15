@@ -21,7 +21,7 @@
 
 .text-forms {
   font-family: "Roboto", sans-serif;
-  font-size: 1.1em;
+  font-size: 1.2rem;
   line-height: 1.6;
   display: flex;
   align-items: center;
@@ -69,33 +69,16 @@ background-color: #e913b3;
 
 @media (min-width: 220px) and (max-width: 740px) {
   .title-contacto {
-    font-size: 1.5em;
+    font-size: 1.7rem;
   }
   .subtitle-contacto {
-    font-size: 1.1em;
+    font-size: 1.2rem;
   }
   .text-forms {
     text-align: start;
-    margin: 0em 1em;
-    font-size: 1em;
+    font-size: 1.1rem;
   }
   .button-contacto {
     margin: 0.4em auto;
-  }
-}
-
-@media (min-width: 690px) and (max-width: 1340px) {
-  .title-contacto {
-    font-size: 1.4em;
-  }
-  .subtitle-contacto {
-    font-size: 1em;
-  }
-  .text-forms {
-    font-size: 0.9em;
-  }
-  .button-contacto {
-    height: 6vh;
-    font-size: 1em;
   }
 }
